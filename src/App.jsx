@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import Counter from "./Counter";
 import Team from "./Team";
+import Users from "./User";
+import Friends from "./Friends";
 
 function App() {
   function handleClick() {
@@ -16,7 +18,9 @@ function App() {
   };
   return (
     <>
-    <Team></Team>
+    <Friends></Friends>
+    {/* <Users></Users> */}
+    {/* <Team></Team>
       <Counter></Counter>
       <h2>React Core Concepts</h2>
       <button onClick={handleClick}>Click Me</button>
@@ -28,7 +32,7 @@ function App() {
       >
         Click Me Too
       </button>
-      <button onClick={() => addToFive(5)}>Four</button>
+      <button onClick={() => addToFive(5)}>Four</button> */}
     </>
   );
 }
